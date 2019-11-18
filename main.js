@@ -23,7 +23,7 @@ const mainContainer = document.getElementById("project-container");
   div.innerHTML =   '<div class="project-text">'+
                         '<span class="project-title">' + data[i].title + '</span>' +
                         '<p class="project-description">' + data[i].description + '</p>' + 
-                        '<a href="' + data[i].links + '" class="project-links">' + data[i].linkText + '</a>' +
+                        '<div class="project-links-container"><a href="' + data[i].links + '" class="project-links">' + data[i].linkText + '</a></div>' +
                     '</div>'+
                     '<img class="project-image" src="' + data[i].imagePath + '"/>';
   // add div to main container

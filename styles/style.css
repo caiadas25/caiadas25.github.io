@@ -1,7 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    background-color: #E5E6E4;
+}
 .project {
+    background-color: #FBFBF2;
     box-shadow: 4px 10px 84px -23px rgba(0,0,0,0.75);
     border-radius: 7px;
     display: flex;
@@ -21,14 +25,29 @@ html {
     height: auto;
     width: 50%;
 }
+.project-title {
+    color: #6D5054;
+    font-size: 20px;
+    font-weight: bold;
+}
 .project-text {
     display: flex;
     flex: 1;
     flex-direction: column;
     padding: 20px;
 }
+.project-links-container{
+    background-color: #6D5054;
+    border-radius: 7px;
+    padding: 10px;
+    width: max-content;
+}
 .project-links {
-    color: red;
+    color: #E5E6E4;
+    text-decoration: none;
+}
+.hero-title {
+    color: #6D5054;
 }
 .hero-intro {
     width: 50%;
