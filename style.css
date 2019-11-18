@@ -1,14 +1,17 @@
 .project {
     display: flex;
     flex-direction: row-reverse;
-    width: 400px;
+    width: 85%;
     border: 1px solid black;
 }
 .project-image {
     height: auto;
-    width: 70%;
+    width: 50%;
+}
+.project-text {
+    padding: 20px;
 }
 
 .hero-intro {
-    width: 600px;
+    width: 75%;
 }
