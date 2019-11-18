@@ -1,17 +1,35 @@
 .project {
+    border: 1px solid black;
     display: flex;
     flex-direction: row-reverse;
-    width: 85%;
-    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 40%;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    .project {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 .project-image {
     height: auto;
     width: 50%;
 }
 .project-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding: 20px;
 }
-
+.project-links {
+    color: red;
+}
 .hero-intro {
-    width: 75%;
+    width: 50%;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    .hero-intro {
+        width: 75%;
+    }
 }

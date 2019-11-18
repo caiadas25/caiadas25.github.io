@@ -1,0 +1,17 @@
+[
+    {
+      "title": "JS Drum Kit",
+      "description": "Simple keyboard drums built with vanilla JavaScript",
+      "links": "/Projects/JS Drum Kit/index.html",
+      "linkText": "Live Demo",
+      "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
+    },
+    {
+      "title": "CSS + JS Clock",
+      "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "links": "/Projects/JS Drum Kit/index.html",
+      "linkText": "Live Demo",
+      "imagePath": "/Projects/CSSJS Clock/images/clock.png"
+    }
+  ]
+  
