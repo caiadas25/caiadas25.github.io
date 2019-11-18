@@ -28,6 +28,5 @@ const mainContainer = document.getElementById("project-container");
                     '<img class="project-image" src="' + data[i].imagePath + '"/>';
   // add div to main container
   mainContainer.appendChild(div);
+  }
 }
-}
-
