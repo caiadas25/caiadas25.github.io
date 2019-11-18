@@ -1,0 +1,13 @@
+.project {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 400px;
+    border: 1px solid black;
+}
+.project-image {
+    width: 70%;
+}
+
+.hero-intro {
+    width: 600px;
+}
