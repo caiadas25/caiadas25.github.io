@@ -52,13 +52,15 @@ body {
     color: #6D5054;
     font-family: 'Alata', sans-serif;
 }
-.hero-nav-list {
-    list-style: none;
+.hero-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 290px;
 }
-.hero-nav-list-link {
+.hero-nav-link {
     color: #6D5054;
     font-family: 'Alata', sans-serif;
-    list-style: none;
     text-decoration: none;
 }
 .hero-intro {
