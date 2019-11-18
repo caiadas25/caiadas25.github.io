@@ -2,7 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 .project {
-    border: 1px solid black;
+    box-shadow: 4px 10px 84px -23px rgba(0,0,0,0.75);
+    border-radius: 7px;
     display: flex;
     flex-direction: row-reverse;
     margin: 0 auto;
@@ -16,6 +17,7 @@ html {
     }
 }
 .project-image {
+    border-radius: 7px;
     height: auto;
     width: 50%;
 }
