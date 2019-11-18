@@ -5,6 +5,7 @@
     border: 1px solid black;
 }
 .project-image {
+    height: auto;
     width: 70%;
 }
 
