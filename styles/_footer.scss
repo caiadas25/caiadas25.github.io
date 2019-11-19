@@ -1,0 +1,19 @@
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: $title-font;
+    margin-bottom: 40px;
+}
+.footer-links {
+    padding: 20px;
+    a {
+        color: $accent-color;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px;
+    }
+}
+.footer-text {
+    font-size: 30px;
+}
