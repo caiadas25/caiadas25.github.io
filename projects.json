@@ -4,6 +4,7 @@
       "description": "Simple keyboard drums built with vanilla JavaScript",
       "links": "/Projects/JS Drum Kit/index.html",
       "linkText": "Live Demo",
+      "stackItem": "HTML CSS JS",
       "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
     },
     {
@@ -11,6 +12,8 @@
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "links": "/Projects/JS Drum Kit/index.html",
       "linkText": "Live Demo",
+      "stackItem": "HTML SCSS JS",
       "imagePath": "/Projects/CSSJS Clock/images/clock.png"
     }
 ]
+
