@@ -1,10 +1,26 @@
 [
     {
+      "title": "Portfolio Website",
+      "description": "Simple personal portfolio to display projects, contacts, etc.",
+      "links": "/Projects/index.html",
+      "linkText": "Live Demo",
+      "stackItem": {
+        "1": "HTML",
+        "2": "SCSS",
+        "3": "VANILLA JS"
+      },
+      "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
+    },
+    {
       "title": "JS Drum Kit",
       "description": "Simple keyboard drums built with vanilla JavaScript",
       "links": "/Projects/JS Drum Kit/index.html",
       "linkText": "Live Demo",
-      "stackItem": "HTML CSS JS",
+      "stackItem": {
+        "1": "HTML",
+        "2": "CSS",
+        "3": "VANILLA JS"
+      },
       "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
     },
     {
@@ -15,7 +31,7 @@
       "stackItem": {
         "1": "HTML",
         "2": "CSS",
-        "3": "JS"
+        "3": "VANILLA JS"
       },
       "imagePath": "/Projects/CSSJS Clock/images/clock.png"
     }
