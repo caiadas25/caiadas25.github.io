@@ -37,7 +37,10 @@ html {
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
   }
-  
+  .test {
+    transform: scale(1.1);
+    border-color: red;
+  }
   kbd {
     display: block;
     font-size: 4rem;

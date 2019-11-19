@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #FBFAFB;
+}
+
+@import "colors";
+@import "fonts";
+
+.project-card {
+    background-color: $primary-color;
+    box-shadow: 4px 10px 84px -23px rgba(0,0,0,0.75);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 60%;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.project-image {
+    border-radius: 7px;
+    height: auto;
+    width: 50%;
+}
+.project-title {
+    color: $accent-color;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.project-text {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+.project-links-container{
+    background-color: $accent-color;
+    border-radius: 7px;
+    padding: 10px;
+    width: max-content;
+}
+.project-description {
+    margin: 10px 0px 40px 0px;
+}
+.project-links {
+    color: $primary-color;
+    text-decoration: none;
+}
+.hero {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.hero-title {
+    color: $accent-color;
+    font-family: $title-font;
+    flex: 1 1 0;
+    align-self: flex-start;
+    font-size: 2.3rem;
+}
+.hero-nav {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.hero-nav-left {
+    flex: 1 1 0;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.hero-nav-right {
+    flex: 1 1 0;
+    padding: 0;
+    text-align: right;
+}
+.hero-nav-list-item {
+    display: inline-block;
+    padding: 0 40px;
+    letter-spacing: .5px;
+    font-size: 1.8rem;
+    transition: color .25s ease;
+    }
+.hero-nav-link {
+    color: $accent-color;
+    font-family: $title-font;
+    text-decoration: none;
+}
+.hero-image {
+    width: 15%;
+}
+.hero-intro {
+    font-family: 'Quicksand', sans-serif;
+    width: 80%;
+    margin-top: 1.25em;
+    margin-bottom: 2.5em;
+    line-height: 68px;
+    font-size: 3.8rem;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    .hero-intro {
+        width: 90%;
+    }
+}
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: $title-font;
+    margin-bottom: 40px;
+}
+.footer-links {
+    padding: 20px;
+    a {
+        color: $accent-color;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px;
+    }
+}
+.footer-text {
+    font-size: 30px;
+}
+.hero-employer-container {
+    display: flex;
+    flex-direction: column;
+}
+.hero-span {
+    color: $accent-color;
+    font-family: $title-font;
+} 
