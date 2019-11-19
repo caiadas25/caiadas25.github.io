@@ -47,10 +47,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #E5E6E4;
+    background-color: #FBFAFB;
 }
 .project {
-    background-color: #FBFBF2;
+    background-color: #FBFAFB;
     box-shadow: 4px 10px 84px -23px rgba(0,0,0,0.75);
     border-radius: 7px;
     display: flex;
@@ -71,7 +71,7 @@ body {
     width: 50%;
 }
 .project-title {
-    color: #6D5054;
+    color: #85C8D1;
     font-family: 'Alata', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -84,17 +84,24 @@ body {
     padding: 20px;
 }
 .project-links-container{
-    background-color: #6D5054;
+    background-color: #85C8D1;
     border-radius: 7px;
     padding: 10px;
     width: max-content;
 }
+.project-description {
+    margin: 10px 0px 40px 0px;
+}
 .project-links {
-    color: #E5E6E4;
+    color: #FBFAFB;
     text-decoration: none;
 }
+.hero {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 .hero-title {
-    color: #6D5054;
+    color: #85C8D1;
     font-family: 'Alata', sans-serif;
     flex: 1 1 0;
     align-self: flex-start;
@@ -106,7 +113,6 @@ body {
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    width: 90%;
     max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
@@ -130,13 +136,17 @@ body {
     transition: color .25s ease;
     }
 .hero-nav-link {
-    color: #6D5054;
+    color: #85C8D1;
     font-family: 'Alata', sans-serif;
     text-decoration: none;
 }
+.hero-image {
+    width: 15%;
+}
 .hero-intro {
-    width: 50%;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 50px;
+    width: 50%;
 }
 @media only screen and (min-width:0px) and (max-width:480px){
     .hero-intro {
@@ -150,7 +160,19 @@ body {
     font-family: 'Alata', sans-serif;
 }
 .footer-links a {
-    color: #6D5054;
+    color: #85C8D1;
     font-weight: bold;
     text-decoration: none;
+    padding: 20px;
+}
+.footer-text {
+    font-size: 30px;
+}
+.hero-employer-container {
+    display: flex;
+    flex-direction: column;
+}
+.hero-span {
+    color: #85C8D1;
+    font-family: 'Alata', sans-serif;
 }
