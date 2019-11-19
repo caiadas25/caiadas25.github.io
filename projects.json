@@ -12,7 +12,11 @@
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "links": "/Projects/JS Drum Kit/index.html",
       "linkText": "Live Demo",
-      "stackItem": "HTML SCSS JS",
+      "stackItem": {
+        "1": "HTML",
+        "2": "CSS",
+        "3": "JS"
+      },
       "imagePath": "/Projects/CSSJS Clock/images/clock.png"
     }
 ]

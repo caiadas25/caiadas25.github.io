@@ -30,3 +30,33 @@ const projectContainer = document.getElementById("project-container");
   projectContainer.appendChild(div);
   }
 }
+
+
+
+// TESTE
+var json = [{
+  "id": "1", 
+  "stack": "react",
+},
+{
+  "id": "2", 
+  "stack": "vue",
+},
+{
+  "id" : "5", 
+  "stack"   : {
+    "1" : "html",
+    "2" : "css",
+    "3" : "js",
+  },
+},
+];
+
+for(var i = 0; i < json.length; i++) {
+  var obj = json[i];
+
+  var stringified = JSON.stringify(obj.msg);
+  console.log(stringified);
+}
+
+//TESTE
