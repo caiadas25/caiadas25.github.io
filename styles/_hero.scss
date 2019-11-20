@@ -14,7 +14,6 @@
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     max-width: 1400px;
     margin-right: auto;
@@ -23,7 +22,6 @@
 }
 .hero-nav-left {
     flex: 1 1 0;
-    -ms-flex-item-align: start;
     align-self: flex-start;
 }
 .hero-nav-right {
@@ -37,7 +35,11 @@
     letter-spacing: .5px;
     font-size: 1.8rem;
     transition: color .25s ease;
+    :hover{
+        color: #c3c5c5;
+        transition-duration: 200ms;
     }
+}
 .hero-nav-link {
     color: $accent-color;
     font-family: $title-font;

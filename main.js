@@ -15,14 +15,16 @@ const data = await response.json();
 
 
   for (let i = 0; i < data.length; i++) {
-    // create div
+    // create project-card
     const div = document.createElement('div');
     div.setAttribute('class', 'project-card');
-    div.innerHTML =   '<div class="project-text">'+
+    div.innerHTML =   '<div class="project-text">' +
                           '<span class="project-title">' + data[i].title + '</span>' +
                           '<p class="project-description">' + data[i].description + '</p>' + 
                           '<div class="project-stack-container"></div>' +
-                          '<div class="project-links-container"><a href="' + data[i].links + '" class="project-links">' + data[i].linkText + '</a></div>' +
+                          '<div class="project-links-container">' +
+                            '<a href="' + data[i].links + '" class="project-links">' + data[i].linkText + '</a>' +
+                          '</div>' +
                       '</div>'+
                       '<img class="project-image" src="' + data[i].imagePath + '"/>';
   

@@ -5,7 +5,7 @@
       "links": "/Projects/index.html",
       "linkText": "Live Demo",
       "stackItem": {
-        "1": "HTML",
+        "1": "HTML5",
         "2": "SCSS",
         "3": "VANILLA JS"
       },
@@ -17,8 +17,8 @@
       "links": "/Projects/JS Drum Kit/index.html",
       "linkText": "Live Demo",
       "stackItem": {
-        "1": "HTML",
-        "2": "CSS",
+        "1": "HTML5",
+        "2": "CSS3",
         "3": "VANILLA JS"
       },
       "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
@@ -29,11 +29,10 @@
       "links": "/Projects/JS Drum Kit/index.html",
       "linkText": "Live Demo",
       "stackItem": {
-        "1": "HTML",
-        "2": "CSS",
+        "1": "HTML5",
+        "2": "CSS3",
         "3": "VANILLA JS"
       },
       "imagePath": "/Projects/CSSJS Clock/images/clock.png"
     }
 ]
-
