@@ -13,7 +13,6 @@ async function getProjects(){
 const response = await fetch('projects.json');
 const data = await response.json();
 
-
   for (let i = 0; i < data.length; i++) {
     // create project-card
     const div = document.createElement('div');
@@ -27,20 +26,18 @@ const data = await response.json();
                           '</div>' +
                       '</div>'+
                       '<img class="project-image" src="' + data[i].imagePath + '"/>';
-  
 
+    //Reads the values of the "stackitem" key:value pair and creates a span for each one (project-stack-item);
+    for (let item of Object.values(data[i].stackItem)) {
+      const span = document.createElement("span");
+      span.setAttribute('class', 'project-stack-item');
+      span.innerHTML = item;
 
-  for (let item of Object.values(data[i].stackItem)) {
-    const span = document.createElement("span");
-    span.setAttribute('class', 'project-stack-item');
-    span.innerHTML = item;
-
-  // add project-card to main container
-  document.getElementById("project-container").appendChild(div);
-  // add project-stack-item to project-card
-  div.querySelector(".project-stack-container").appendChild(span);
+    // add project-card to main container;
+    document.getElementById("project-container").appendChild(div);
+    // add project-stack-item to project-card;
+    div.querySelector(".project-stack-container").appendChild(span);
 
     }
   }
 }
-
