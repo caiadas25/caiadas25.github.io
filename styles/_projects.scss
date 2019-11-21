@@ -7,13 +7,12 @@
     margin: 0 auto;
     margin-bottom: 40px;
     width: 60%;
-}
-@media only screen and (min-width:0px) and (max-width:480px){
-    .project-card {
+    @include mobile {
         width: 100%;
         margin-bottom: 20px;
     }
 }
+
 .projects-header-container {
     border-bottom: 3px solid #85C8D1;
     height: 50px;
@@ -77,6 +76,4 @@
     padding: 10px;
     transition: all .15s ease;    
     @include button-hover;
-
-
 }

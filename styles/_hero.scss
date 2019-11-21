@@ -55,9 +55,7 @@
     margin-bottom: 2.5em;
     line-height: 68px;
     font-size: 3.8rem;
-}
-@media only screen and (min-width:0px) and (max-width:480px){
-    .hero-intro {
+    @include mobile {
         width: 90%;
     }
 }
