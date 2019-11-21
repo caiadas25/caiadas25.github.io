@@ -49,8 +49,11 @@
 .project-title {
     color: $accent-color;
     font-family: 'Alata', sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
+    @include mobile {
+        font-size: 1.8em;
+    }
 }
 
 .project-text {
@@ -94,12 +97,13 @@
     border-radius: 7px;
     background-color: #c3c5c5;
     color: $primary-color;
-    font-size: 1rem;
+    font-size: 1em;
     margin: 5px 5px 5px 0px;
     padding: 10px;
     transition: all .15s ease;    
     @include button-hover;
     @include mobile {
         padding: 8px;
+        font-size: .8em;
     }
 }
