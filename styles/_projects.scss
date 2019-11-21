@@ -1,3 +1,8 @@
+#project-container {
+    @include mobile {
+        margin-bottom: 50px;
+    }
+}
 .project-card {
     background-color: $primary-color;
     box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
@@ -8,7 +13,7 @@
     margin-bottom: 40px;
     width: 60%;
     @include mobile {
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
     }
 }
@@ -19,6 +24,9 @@
     margin: 0 auto;
     margin-bottom: 120px;
     width: max-content;
+    @include mobile {
+        margin-bottom: 70px;
+    }
 
     .projects-header {
         color: $accent-color;
@@ -33,6 +41,9 @@
     height: 300px;
     width: 500px;
     object-fit: cover;
+    @include mobile {
+        width: 28%;
+    }
 }
 
 .project-title {
@@ -48,6 +59,9 @@
     flex: 1;
     flex-direction: column;
     padding: 35px 20px 20px 40px;
+    @include mobile {
+        padding: 25px 10px 10px 20px;
+    }
 }
 
 .project-links-container{
@@ -71,6 +85,9 @@
 .project-stack-container {
     display: flex;
     margin-bottom: 40px;
+    @include mobile {
+        margin-bottom: 10px;
+    }
 }
 
 .project-stack-item {
@@ -82,4 +99,7 @@
     padding: 10px;
     transition: all .15s ease;    
     @include button-hover;
+    @include mobile {
+        padding: 8px;
+    }
 }

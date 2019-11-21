@@ -2,6 +2,10 @@
     max-width: 1300px;
     margin: 0 auto;
     margin-bottom: 150px;
+    @include mobile {
+        width: 85%;
+        margin-bottom: 100px;
+    }
 }
 .hero-title {
     color: $accent-color;
@@ -9,6 +13,9 @@
     flex: 1 1 0;
     align-self: flex-start;
     font-size: 3rem;
+    @include mobile {
+        font-size: 2.8rem;
+    }
 }
 .hero-nav {
     align-items: center;
@@ -25,6 +32,11 @@
     flex: 1 1 0;
     padding: 0;
     text-align: right;
+    @include mobile {
+        flex: 1 1 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 .hero-nav-list-item {
     display: inline-block;
@@ -36,6 +48,9 @@
         color: #c3c5c5;
         transition-duration: 200ms;
     }
+    @include mobile {
+        padding: 0;
+    }
 }
 .hero-nav-link {
     color: $accent-color;
@@ -44,6 +59,9 @@
 }
 .hero-image {
     width: 25%;
+    @include mobile {
+        width: 70%;
+    }
 }
 .hero-intro {
     font-family: 'Quicksand', sans-serif;
@@ -52,6 +70,10 @@
     margin: 1.25em 0 2.5em 0;
     width: 80%;
     @include mobile {
+        font-size: 1.8rem;
+        line-height: 45px;
+        margin: 0 auto;
+        margin-bottom: 40px;
         width: 90%;
     }
 }
@@ -64,4 +86,7 @@
     color: $accent-color;
     font-family: $title-font;
     font-size: 1.7rem;
+    @include mobile {
+        font-size: 2.5em;
+    }
 } 

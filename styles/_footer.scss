@@ -12,8 +12,14 @@
         font-weight: bold;
         text-decoration: none;
         padding: 15px;
+        @include mobile {
+            font-size: 1.3em;
+        }
     }
 }
 .footer-text {
     font-size: 30px;
+    @include mobile {
+        font-size: 2em;
+    }
 }
