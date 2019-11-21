@@ -16,6 +16,7 @@
     @include mobile {
         font-size: 2.3rem;
         text-align: center;
+        margin-bottom: 15px;
     }
 }
 .hero-nav {
@@ -25,7 +26,7 @@
     margin: 100px auto 100px auto;
     max-width: 1400px;
     @include mobile {
-        margin: 100px auto 80px auto;
+        margin: 75px auto 80px auto;
     }
 }
 .hero-nav-left {
@@ -78,7 +79,7 @@
     width: 80%;
     @include mobile {
         font-size: 1.6rem;
-        line-height: 45px;
+        line-height: 40px;
         margin: 0 auto;
         margin-bottom: 40px;
         width: 90%;
