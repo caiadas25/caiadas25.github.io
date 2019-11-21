@@ -45,13 +45,15 @@
     font-family: 'Quicksand', sans-serif;
     flex: 1;
     flex-direction: column;
-    padding: 20px;
+    padding: 35px 20px 20px 40px;
 }
 .project-links-container{
     background-color: $accent-color;
     border-radius: 7px;
     padding: 10px;
     width: max-content;
+    transition: all .15s ease;    
+    @include button-hover;
 }
 .project-description {
     margin: 10px 0px 40px 0px;
@@ -59,10 +61,12 @@
 .project-links {
     color: $primary-color;
     text-decoration: none;
+
 }
 .project-stack-container {
     display: flex;
     margin-bottom: 40px;
+
 }
 .project-stack-item {
     border-radius: 7px;
@@ -71,4 +75,8 @@
     font-size: 1rem;
     margin: 5px 5px 5px 0px;
     padding: 10px;
+    transition: all .15s ease;    
+    @include button-hover;
+
+
 }
