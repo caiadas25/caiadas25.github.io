@@ -26,6 +26,7 @@
         font-size: 2rem;
     }
 }
+
 .project-image {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
@@ -33,12 +34,14 @@
     width: 500px;
     object-fit: cover;
 }
+
 .project-title {
     color: $accent-color;
     font-family: 'Alata', sans-serif;
     font-size: 2rem;
     font-weight: bold;
 }
+
 .project-text {
     display: flex;
     font-family: 'Quicksand', sans-serif;
@@ -46,6 +49,7 @@
     flex-direction: column;
     padding: 35px 20px 20px 40px;
 }
+
 .project-links-container{
     background-color: $accent-color;
     border-radius: 7px;
@@ -54,19 +58,21 @@
     transition: all .15s ease;    
     @include button-hover;
 }
+
 .project-description {
     margin: 10px 0px 40px 0px;
 }
+
 .project-links {
     color: $primary-color;
     text-decoration: none;
-
 }
+
 .project-stack-container {
     display: flex;
     margin-bottom: 40px;
-
 }
+
 .project-stack-item {
     border-radius: 7px;
     background-color: #c3c5c5;

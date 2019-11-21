@@ -11,14 +11,11 @@
     font-size: 3rem;
 }
 .hero-nav {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
+    margin: 100px auto 100px auto;
     max-width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
 }
 .hero-nav-left {
     flex: 1 1 0;
@@ -50,11 +47,10 @@
 }
 .hero-intro {
     font-family: 'Quicksand', sans-serif;
-    width: 80%;
-    margin-top: 1.25em;
-    margin-bottom: 2.5em;
     line-height: 68px;
     font-size: 3.8rem;
+    margin: 1.25em 0 2.5em 0;
+    width: 80%;
     @include mobile {
         width: 90%;
     }
