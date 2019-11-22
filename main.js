@@ -25,7 +25,13 @@ const data = await response.json();
                             '<a href="' + data[i].links + '" class="project-links">' + data[i].linkText + '</a>' +
                           '</div>' +
                       '</div>'+
-                      '<img class="project-image" src="' + data[i].imagePath + '"/>';
+                      '<picture> ' +
+                        '<source media="(max-width: 768px)" srcset="' + data[i].mobileImage + '">' +
+                        '<source media="(min-width: 1024px)" srcset="' + data[i].imagePath + '"> ' +
+                        '<img  src="' + data[i].imagePath + '"' +
+                              'class="project-image">' +
+                      '</picture>' 
+                      ;
 
     //Reads the values of the "stackitem" key:value pair and creates a span for each one (project-stack-item);
     for (let item of Object.values(data[i].stackItem)) {
@@ -41,4 +47,3 @@ const data = await response.json();
     }
   }
 }
-

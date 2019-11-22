@@ -9,30 +9,32 @@
         "2": "SCSS",
         "3": "VANILLA JS"
       },
-      "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
+      "imagePath": "/Projects/JSDrumKit/images/jsdrumkit.jpg",
+      "mobileImage": "/Projects/JSDrumKit/images/jsdrumkit-small.jpg"
     },
     {
       "title": "JS Drum Kit",
       "description": "Simple keyboard drums built with vanilla JavaScript",
-      "links": "/Projects/JS Drum Kit/index.html",
+      "links": "/Projects/JSDrumKit/index.html",
       "linkText": "Live Demo",
       "stackItem": {
         "1": "HTML5",
         "2": "CSS3",
         "3": "VANILLA JS"
       },
-      "imagePath": "/Projects/JS Drum Kit/images/jsdrumkit.jpg"
+      "imagePath": "/Projects/JSDrumKit/images/jsdrumkit.jpg",
+      "mobileImage": "/Projects/JSDrumKit/images/jsdrumkit-small.jpg"
     },
     {
       "title": "CSS + JS Clock",
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
-      "links": "/Projects/JS Drum Kit/index.html",
+      "links": "/Projects/JSDrumKit/index.html",
       "linkText": "Live Demo",
       "stackItem": {
         "1": "HTML5",
         "2": "CSS3",
         "3": "VANILLA JS"
       },
-      "imagePath": "/Projects/CSSJS Clock/images/clock.png"
+      "imagePath": "/Projects/CSSJSClock/images/clock.png"
     }
 ]
