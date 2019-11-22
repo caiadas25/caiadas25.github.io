@@ -76,7 +76,16 @@ picture {
     padding: 10px;
     width: max-content;
     transition: all .15s ease;    
-    @include button-hover;
+    background: linear-gradient(90deg, rgba(133,200,209,1) 100%, rgba(255,255,255,0) 100%);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size .15s 0s;
+    &:hover {
+        background-size: 100% 100%;
+        .project-links{
+            color:#FBFAFB;
+         }
+    }
 }
 
 .project-description {
@@ -84,7 +93,8 @@ picture {
 }
 
 .project-links {
-    color: $primary-color;
+    color: #85C8D1;
+    border: 2px solid #85C8D1;
     text-decoration: none;
 }
 

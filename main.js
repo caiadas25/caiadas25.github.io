@@ -21,29 +21,41 @@ const data = await response.json();
                           '<span class="project-title">' + data[i].title + '</span>' +
                           '<p class="project-description">' + data[i].description + '</p>' + 
                           '<div class="project-stack-container"></div>' +
-                          '<div class="project-links-container">' +
-                            '<a href="' + data[i].links + '" class="project-links">' + data[i].linkText + '</a>' +
-                          '</div>' +
+                          '<div class="project-links-container"></div>' +
                       '</div>'+
                       '<picture> ' +
                         '<source media="(max-width: 768px)" srcset="' + data[i].mobileImage + '">' +
                         '<source media="(min-width: 1024px)" srcset="' + data[i].imagePath + '"> ' +
                         '<img  src="' + data[i].imagePath + '"' +
                               'class="project-image">' +
-                      '</picture>' 
-                      ;
+                      '</picture>';
+    // add project-card to main container;
+    document.getElementById("project-container").appendChild(div);
 
+    
     //Reads the values of the "stackitem" key:value pair and creates a span for each one (project-stack-item);
     for (let item of Object.values(data[i].stackItem)) {
       const span = document.createElement("span");
       span.setAttribute('class', 'project-stack-item');
       span.innerHTML = item;
 
-    // add project-card to main container;
-    document.getElementById("project-container").appendChild(div);
     // add project-stack-item to project-card;
     div.querySelector(".project-stack-container").appendChild(span);
+    }
 
+
+    
+    //Reads the values of the "links" key:value pair and creates a link(a) for each one (project-links);
+    for (let item of Object.values(data[i].links)) {
+      const a = document.createElement("a");
+      a.setAttribute('class', 'project-links');
+      a.href = item;
+
+      for (let item1 of Object.values(data[i].linkText)) {
+        a.innerHTML = item1;
+      }      
+      // add project-links to project-links-container
+      div.querySelector(".project-links-container").appendChild(a);
     }
   }
 }

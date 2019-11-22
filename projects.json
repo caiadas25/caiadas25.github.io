@@ -2,8 +2,14 @@
     {
       "title": "Portfolio Website",
       "description": "Simple personal portfolio to display projects, contacts, etc.",
-      "links": "/Projects/index.html",
-      "linkText": "Live Demo",
+      "links": {
+        "1": "/Projects/JSDrumKit/index.html",
+        "2": "https://google.com"
+      },
+      "linkText": {
+        "1": "Live Demo",
+        "2": "Source Code"
+      },
       "stackItem": {
         "1": "HTML5",
         "2": "SCSS",
@@ -15,8 +21,14 @@
     {
       "title": "JS Drum Kit",
       "description": "Simple keyboard drums built with vanilla JavaScript",
-      "links": "/Projects/JSDrumKit/index.html",
-      "linkText": "Live Demo",
+      "links": {
+        "1": "/Projects/JSDrumKit/index.html",
+        "2": "https://google.com"
+      },
+      "linkText": {
+        "1": "Live Demo",
+        "2": "Source Code"
+      },
       "stackItem": {
         "1": "HTML5",
         "2": "CSS3",
@@ -28,8 +40,14 @@
     {
       "title": "CSS + JS Clock",
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
-      "links": "/Projects/JSDrumKit/index.html",
-      "linkText": "Live Demo",
+      "links": {
+        "1": "/Projects/JSDrumKit/index.html",
+        "2": "https://google.com"
+      },
+      "linkText": {
+        "1": "Live Demo",
+        "2": "Source Code"
+      },
       "stackItem": {
         "1": "HTML5",
         "2": "CSS3",
