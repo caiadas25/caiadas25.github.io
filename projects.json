@@ -35,6 +35,7 @@
         "2": "CSS3",
         "3": "VANILLA JS"
       },
-      "imagePath": "/Projects/CSSJSClock/images/clock.png"
+      "imagePath": "/Projects/CSSJSClock/images/clock.png",
+      "mobileImage": "/Projects/CSSJSClock/images/clock.png""
     }
 ]
