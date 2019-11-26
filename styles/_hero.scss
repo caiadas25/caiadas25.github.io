@@ -2,7 +2,7 @@
     max-width: 1300px;
     margin: 0 auto;
     margin-bottom: 150px;
-    @include mobile {
+    @include tablet {
         width: 85%;
         margin-bottom: 100px;
     }
@@ -22,16 +22,28 @@
 .hero-nav {
     align-items: center;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     margin: 100px auto 100px auto;
-    max-width: 1400px;
+    max-width: 1400px;  
     @include mobile {
         margin: 75px auto 80px auto;
-    }
+        flex-direction: row;
+    }   
+    @include tablet {
+        flex-direction: column;
+    }   
 }
 .hero-nav-left {
     flex: 1 1 0;
     align-self: flex-start;
+    @include tablet {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }  
+    @include mobile {
+        margin: auto;
+        margin-bottom: 0px;
+    }  
 }
 .hero-nav-right {
     flex: 1 1 0;
@@ -54,7 +66,7 @@
         transition-duration: 200ms;
     }
     @include mobile {
-        padding: 0;
+        padding: 10px;
     }
 }
 .hero-nav-link {
@@ -65,18 +77,18 @@
         font-size: 0.8em;
     }
 }
-.hero-image {
-    width: 25%;
-    @include mobile {
-        width: 70%;
-    }
-}
+
 .hero-intro {
     font-family: 'Quicksand', sans-serif;
     line-height: 68px;
     font-size: 3.8rem;
     margin: 1.25em 0 2.5em 0;
     width: 80%;
+    @include tablet {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        font-size: 2.8rem;
+    }
     @include mobile {
         font-size: 1.6rem;
         line-height: 40px;
@@ -94,7 +106,16 @@
     color: $accent-color;
     font-family: $title-font;
     font-size: 1.7rem;
-    @include mobile {
+    @include tablet {
         font-size: 2.5em;
     }
 } 
+.hero-image {
+    width: 25%;
+    @include mobile {
+        width: 70%;
+    }
+    @include tablet {
+        width: 80%;
+    }
+}
