@@ -74,6 +74,9 @@ picture {
     border-radius: 7px;
     width: max-content;
     display: flex;
+    @include mobile {
+        width: 50%;
+    }
 }
 .material-icons{
     padding-left: 5px;
@@ -92,6 +95,10 @@ picture {
     &:hover {
         background-color: #85C8D1;
         color: #FBFAFB;
+    }
+    @include mobile {
+        padding: 6px;
+        font-size: .65em;
     }
 }
 
@@ -117,7 +124,7 @@ picture {
     transition: all .15s ease;    
     @include button-hover;
     @include mobile {
-        padding: 8px;
-        font-size: .8em;
+        padding: 7px;
+        font-size: .65em;
     }
 }
