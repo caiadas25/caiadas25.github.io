@@ -3,8 +3,8 @@
       "title": "Portfolio Website",
       "description": "Simple personal portfolio to display projects, contacts, etc.",
       "links": {
-        "Live Demo": "/Projects/JSDrumKit/index.html",
-        "Source Code": "https://tesdt.com"
+        "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
+        "Source Code <i class='material-icons'>code</i>": "https://tesdt.com"
       },
       "stackItem": {
         "1": "HTML5",
@@ -18,8 +18,8 @@
       "title": "JS Drum Kit",
       "description": "Simple keyboard drums built with vanilla JavaScript",
       "links": {
-        "Live Demo": "/Projects/JSDrumKit/index.html",
-        "Source Code": "https://tesdt.com"
+        "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
+        "Source Code <i class='material-icons'>code</i>": "https://tesdt.com"
       },
       "stackItem": {
         "1": "HTML5",
@@ -33,8 +33,8 @@
       "title": "CSS + JS Clock",
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "links": {
-        "Live Demo": "/Projects/JSDrumKit/index.html",
-        "Source Code": "https://tesdt.com"
+        "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
+        "Source Code <i class='material-icons'>code</i>": "https://tesdt.com"
       },
       "stackItem": {
         "1": "HTML5",

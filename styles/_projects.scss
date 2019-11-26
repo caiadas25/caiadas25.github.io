@@ -73,17 +73,26 @@ picture {
 .project-links-container{
     border-radius: 7px;
     width: max-content;
+    display: flex;
 }
-
+.material-icons{
+    padding-left: 5px;
+}
 .project-links {
     border: 2px solid #85C8D1;
     border-radius: 7px;
     color: #85C8D1;
     text-decoration: none;
     padding: 10px;
+    display: flex;
+    align-items: center;
     margin: 0 10px 0 0;
-    transition: all .15s ease;    
+    transition: all .15s ease;  
     @include button-hover;
+    &:hover {
+        background-color: #85C8D1;
+        color: #FBFAFB;
+    }
 }
 
 .project-description {
