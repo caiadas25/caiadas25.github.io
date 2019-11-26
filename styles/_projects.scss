@@ -71,31 +71,23 @@ picture {
 }
 
 .project-links-container{
-    background-color: $accent-color;
     border-radius: 7px;
-    padding: 10px;
     width: max-content;
+}
+
+.project-links {
+    border: 2px solid #85C8D1;
+    border-radius: 7px;
+    color: #85C8D1;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px 0 0;
     transition: all .15s ease;    
-    background: linear-gradient(90deg, rgba(133,200,209,1) 100%, rgba(255,255,255,0) 100%);
-    background-repeat: no-repeat;
-    background-size: 0 100%;
-    transition: background-size .15s 0s;
-    &:hover {
-        background-size: 100% 100%;
-        .project-links{
-            color:#FBFAFB;
-         }
-    }
+    @include button-hover;
 }
 
 .project-description {
     margin: 10px 0px 40px 0px;
-}
-
-.project-links {
-    color: #85C8D1;
-    border: 2px solid #85C8D1;
-    text-decoration: none;
 }
 
 .project-stack-container {

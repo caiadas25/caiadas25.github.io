@@ -44,16 +44,14 @@ const data = await response.json();
     }
 
 
-    
+
     //Reads the values of the "links" key:value pair and creates a link(a) for each one (project-links);
-    for (let item of Object.values(data[i].links)) {
+    for (const [key, value] of Object.entries(data[i].links)) {
       const a = document.createElement("a");
       a.setAttribute('class', 'project-links');
-      a.href = item;
+      a.href = value;
+      a.innerHTML = key;
 
-      for (let item1 of Object.values(data[i].linkText)) {
-        a.innerHTML = item1;
-      }      
       // add project-links to project-links-container
       div.querySelector(".project-links-container").appendChild(a);
     }
