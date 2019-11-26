@@ -17,6 +17,23 @@
         margin-bottom: 20px;
     }
 }
+.project-card:nth-child(odd){
+    transform: translateX(90px);
+    @include mobile {
+        transform: unset;
+    }
+}
+.project-card:nth-child(even){
+    transform: translateX(-90px);
+    display: flex;
+    flex-direction: row;
+    @include mobile {
+        transform: unset;
+    }
+    .project-image {
+        border-radius: 0px 7px 7px 0px;
+    }
+}
 
 .projects-header-container {
     border-bottom: 3px solid #85C8D1;
