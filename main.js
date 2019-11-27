@@ -43,7 +43,6 @@ const data = await response.json();
     }
 
 
-
     //Reads the values of the "links" key:value pair and creates a link(a) for each one (project-links);
     for (const [key, value] of Object.entries(data[i].links)) {
       const a = document.createElement("a");

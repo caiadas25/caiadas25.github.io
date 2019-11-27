@@ -12,6 +12,7 @@
     margin: 0 auto;
     margin-bottom: 40px;
     width: 60%;
+    max-width: 1000px;
     @include mobile {
         width: 90%;
         margin-bottom: 20px;
