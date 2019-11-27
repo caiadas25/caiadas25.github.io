@@ -26,8 +26,7 @@ const data = await response.json();
                       '<picture> ' +
                         '<source media="(max-width: 768px)" srcset="' + data[i].mobileImage + '">' +
                         '<source media="(min-width: 1024px)" srcset="' + data[i].imagePath + '"> ' +
-                        '<img  src="' + data[i].imagePath + '"' +
-                              'class="project-image">' +
+                        '<img src="' + data[i].imagePath + '" class="project-image" alt="Project Screenshot">' +
                       '</picture>';
     // add project-card to main container;
     document.getElementById("project-container").appendChild(div);
