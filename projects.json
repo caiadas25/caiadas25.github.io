@@ -3,7 +3,7 @@
       "title": "Portfolio Website",
       "description": "Simple personal portfolio to display projects, contacts, etc.",
       "links": {
-        "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
+        "Live Demo <i class='material-icons'>link</i>": "https://caiadas25.github.io",
         "Source Code <i class='material-icons'>code</i>": "https://google.com"
       },
       "stackItem": {
@@ -33,7 +33,7 @@
       "title": "CSS + JS Clock",
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "links": {
-        "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
+        "Live Demo <i class='material-icons'>link</i>": "/Projects/CSSJSClock/index.html",
         "Source Code <i class='material-icons'>code</i>": "https://google.com"
       },
       "stackItem": {

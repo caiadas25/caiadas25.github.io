@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+    background: linear-gradient(90deg, rgba(213,221,222,1) 0%, rgba(133,200,209,1) 0%, rgba(196,201,201,1) 62%);
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -13,11 +13,20 @@ html {
     min-height: 100vh;
     align-items: center;
   }
+  .container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
   .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid white;
+    border: 8px solid white;
     border-radius: 50%;
+    border-style: groove;
     margin: 50px auto;
     position: relative;
     padding: 2rem;
@@ -39,4 +48,16 @@ html {
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0, 2.05, 0.17, 1);
   }
+
+.second-hand {
+    background-color: red;
+    height: 2px;
+}
+.min-hand {
+    height: 4px;
+}
