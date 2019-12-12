@@ -21,17 +21,8 @@
         width: 80%;
     }
 }
-.project-card:nth-child(odd){
-    transform: translateX(90px);
-    @include mobile {
-        transform: unset;
-    }
-    @include tablet {
-        transform: unset;
-    } 
-}
+
 .project-card:nth-child(even){
-    transform: translateX(-90px);
     display: flex;
     flex-direction: row;
     @include mobile {
