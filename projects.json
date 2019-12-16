@@ -1,7 +1,7 @@
 [
     {
       "title": "Portfolio Website",
-      "description": "Simple personal portfolio to display projects, contacts, etc.",
+      "description": "Personal portfolio to display projects, contacts, etc.",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "https://caiadas25.github.io",
         "Source Code <i class='material-icons'>code</i>": "https://google.com"
@@ -16,7 +16,7 @@
     },
     {
       "title": "JS Drum Kit",
-      "description": "Simple keyboard drums built with vanilla JavaScript",
+      "description": "Keyboard drums built with vanilla JavaScript",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
         "Source Code <i class='material-icons'>code</i>": "https://google.com"
