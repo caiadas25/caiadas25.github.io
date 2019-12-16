@@ -1,8 +1,3 @@
-window.onbeforeunload = function () {
-  window.scrollTo(0,0);
-};
-
-
 fetch('projects.json')
 .then(function (response) {
   return response.json();
