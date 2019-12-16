@@ -46,7 +46,7 @@
     },
     {
       "title": "CSS Variables",
-      "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "description": "Demo changing CSS variables utilizing JS.",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "/Projects/CSSVariables/index.html",
         "Source Code <i class='material-icons'>code</i>": "https://google.com"
