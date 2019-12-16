@@ -43,5 +43,20 @@
       },
       "imagePath": "/Projects/CSSJSClock/images/clock.png",
       "mobileImage": "/Projects/CSSJSClock/images/clock.png"
+    },
+    {
+      "title": "CSS Variables",
+      "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "links": {
+        "Live Demo <i class='material-icons'>link</i>": "/Projects/CSSVariables/index.html",
+        "Source Code <i class='material-icons'>code</i>": "https://google.com"
+      },
+      "stackItem": {
+        "1": "HTML5",
+        "2": "CSS3",
+        "3": "VANILLA JS"
+      },
+      "imagePath": "/Projects/CSSJSClock/images/clock.png",
+      "mobileImage": "/Projects/CSSJSClock/images/clock.png"
     }
 ]
