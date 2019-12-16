@@ -12,7 +12,7 @@
         "3": "VANILLA JS"
       },
       "imagePath": "images/portfolio.jpg",
-      "mobileImage": "/Projects/JSDrumKit/images/jsdrumkit-small.jpg"
+      "mobileImage": "images/portfolio.jpg"
     },
     {
       "title": "JS Drum Kit",
