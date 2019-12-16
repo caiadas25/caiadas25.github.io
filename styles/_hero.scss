@@ -54,6 +54,9 @@
         text-align: center;
         margin-bottom: 15px;
     }
+    .highlight {
+        color: $text-color;
+    }
 }
 .hero-nav-list-item {
     display: inline-block;
@@ -79,6 +82,7 @@
 }
 
 .hero-intro {
+    color: $text-color;
     font-family: 'Quicksand', sans-serif;
     line-height: 68px;
     font-size: 3.8rem;
