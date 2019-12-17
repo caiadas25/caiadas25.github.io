@@ -49,6 +49,7 @@ const data = await response.json();
       a.setAttribute('class', 'project-links');
       a.href = value;
       a.innerHTML = key;
+      a.target = "_blank";
 
       // add project-links to project-links-container
       div.querySelector(".project-links-container").appendChild(a);

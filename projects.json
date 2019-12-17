@@ -4,7 +4,7 @@
       "description": "Personal portfolio to display projects, contacts, etc.",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "https://caiadas25.github.io",
-        "Source Code <i class='material-icons'>code</i>": "https://google.com"
+        "Source Code <i class='material-icons'>code</i>": "https://github.com/caiadas25/caiadas25.github.io"
       },
       "stackItem": {
         "1": "HTML5",
@@ -19,7 +19,7 @@
       "description": "Keyboard drums built with vanilla JavaScript",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "/Projects/JSDrumKit/index.html",
-        "Source Code <i class='material-icons'>code</i>": "https://google.com"
+        "Source Code <i class='material-icons'>code</i>": "https://github.com/caiadas25/caiadas25.github.io/tree/master/Projects/JSDrumKit"
       },
       "stackItem": {
         "1": "HTML5",
@@ -34,7 +34,7 @@
       "description": "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "/Projects/CSSJSClock/index.html",
-        "Source Code <i class='material-icons'>code</i>": "https://google.com"
+        "Source Code <i class='material-icons'>code</i>": "https://github.com/caiadas25/caiadas25.github.io/tree/master/Projects/CSSJSClock"
       },
       "stackItem": {
         "1": "HTML5",
@@ -49,7 +49,7 @@
       "description": "Demo changing CSS variables utilizing JS.",
       "links": {
         "Live Demo <i class='material-icons'>link</i>": "/Projects/CSSVariables/index.html",
-        "Source Code <i class='material-icons'>code</i>": "https://google.com"
+        "Source Code <i class='material-icons'>code</i>": "https://github.com/caiadas25/caiadas25.github.io/tree/master/Projects/CSSVariables"
       },
       "stackItem": {
         "1": "HTML5",
