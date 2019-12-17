@@ -65,7 +65,7 @@
     font-size: 1.8rem;
     transition: color .25s ease;
     :hover{
-        color: #c3c5c5;
+        color: $text-color;
         transition-duration: 200ms;
     }
     @include mobile {
